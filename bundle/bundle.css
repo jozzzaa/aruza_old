@@ -45,15 +45,27 @@ img {
   height: auto;
   border: 0; }
 
-.hero-unit {
-  margin: 2vh;
+.coming-soon {
+  margin: 0;
   padding: 2em;
-  background-color: mistyrose;
-  height: 96vh;
-  font-family: 'Amatic SC', cursive; }
-  .hero-unit h1 {
+  background-color: black;
+  height: 100vh;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .coming-soon h1 {
     font-size: 5em;
-    line-height: 1em; }
-  .hero-unit p {
+    line-height: 1em;
+    display: block; }
+  .coming-soon p {
     font-size: 2em;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    display: block; }

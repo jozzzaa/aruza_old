@@ -1,0 +1,23 @@
+.coming-soon {
+  margin: 0;
+  padding: 2em;
+  background-color: black;
+  height: 100vh;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 5em;
+    line-height: 1em;
+    display: block;
+  }
+
+  p {
+    font-size: 2em;
+    margin-bottom: 1em;
+    display: block;
+  }
+}
