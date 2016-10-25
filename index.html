@@ -3,15 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Aruza</title>
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="bundle/bundle.css">
 </head>
 <body>
 
   <div class="coming-soon">
-    <h1>Aruza</h1>
+    <div class="title">
+      <div class="name">
+        <h1>Aruza</h1>
+      </div>
+      <div class="typer"></div>
+      <div class="button-holder">
+        <!-- <a href="mailto:jordan@aruza.co"> -->
+        <a target="_blank" href="mailto:jordan@aruza.co?subject=I found your website&body=Hi, I found your website and I was interested in ...">
+          <button>
+            <i class="fa fa-comments-o" aria-hidden="true"></i>
+          </button>
+        </a>
+      </div>
+    </div>
   </div>
 
   <script src="bundle/bundle.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/typed.js"></script>
+
+  <script>
+    $(function(){
+      $(".typer").typed({
+        strings: ["New Website Coming Soon", "Start a Converation with us below"],
+        typeSpeed: 50,
+        startDelay: 2000
+      });
+    });
+</script>
 </body>
 </html>
