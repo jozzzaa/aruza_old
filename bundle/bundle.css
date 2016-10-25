@@ -1,0 +1,59 @@
+/* apply a natural box layout model to all elements,
+   but allow easier overriding */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+  margin: 0;
+  padding: 0; }
+
+main {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: inherit; }
+
+a,
+button {
+  color: inherit;
+  /* dose not inherit by default */
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0; }
+
+.hero-unit {
+  margin: 2vh;
+  padding: 2em;
+  background-color: mistyrose;
+  height: 96vh;
+  font-family: 'Amatic SC', cursive; }
+  .hero-unit h1 {
+    font-size: 5em;
+    line-height: 1em; }
+  .hero-unit p {
+    font-size: 2em;
+    margin-bottom: 1em; }
