@@ -1,0 +1,37 @@
+body {
+  background-color: mistyrose;
+}
+
+// Variables
+$light-green: #72f4ab;
+$light-grey: #989898;
+$dark-blue: #031e28;
+$medium-blue: #042430;
+$shadow-blue: #073647;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background: url(../../../images/hero_bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+}

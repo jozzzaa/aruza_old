@@ -45,6 +45,28 @@ img {
   height: auto;
   border: 0; }
 
+body {
+  background-color: mistyrose; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  height: 100%;
+  width: 100%; }
+
+.header {
+  background: url(../../../images/hero_bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+
 .coming-soon {
   margin: 0;
   padding: 2em;
