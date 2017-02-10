@@ -5,6 +5,7 @@
   <title>Aruza</title>
   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300|Oswald:400,700" rel="stylesheet">
   <link rel="stylesheet" href="bundle/bundle.css">
 </head>
 <body>
@@ -13,31 +14,36 @@
 
     <div class="container">
 
-      <nav>
+      <nav id="navigation">
         <div class="nav_left">
           <img src="images/aruza_logo.png" alt="" id="aruza_logo">
           <ul>
-            <li class="nav_item">Case Studies</li>
+            <li class="nav_item">Case Studies<i class="fa fa-angle-down" aria-hidden="true"></i></li>
             <!-- <li class="nav_item">Blog</li> -->
           </ul>
         </div>
         <div class="nav_right">
-          <div class="cta_button">Double my Business</div>
+          <button class="cta_button">Double my Business</button>
         </div>
       </nav>
 
       <div class="hero">
-        <h2>We can hack your businesses growth</h2>
-        <h3>DOUBLE OR TRIPLE YOUR BUSINESS</h3>
-        <p>We study the mysterious secrets of brands such as Uber, Airbnb, Apple, Amazon & Google to discover how we can apply these tactics to your business. We’re Melbourne based growth hackers and digital marketing specialists.</p>
-        <div class="hero_button">Explore our Case Studies</div>
+        <div class="hero_content">
+          <span id="highlight_holder">
+            <div id="hero_highlight"></div>
+            <h2>We can hack your businesses growth</h2>
+          </span>
+          <h1>DOUBLE OR TRIPLE YOUR BUSINESS</h1>
+          <p>We study the mysterious secrets of brands such as Uber, Airbnb, Apple, Amazon & Google to discover how we can apply these tactics to your business. We’re Melbourne based growth hackers and digital marketing specialists.</p>
+          <button class="hero_button">Explore our Case Studies</button>
+        </div>
       </div>
 
     </div>
 
   </div>
 
-  <div class="study_one">
+  <div class="study_one study">
 
     <div class="container">
 
@@ -57,7 +63,7 @@
 
   </div>
 
-  <div class="study_two">
+  <div class="study_two study">
 
     <div class="container">
 
@@ -70,23 +76,23 @@
         <h3>50% MORE FROM EACH CUSTOMER</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non pretium neque. In convallis ullamcorper ipsum sit amet gravida. Morbi quis rhoncus arcu. Vestibulum quam orci, vulputate eu sollicitudin imperdiet, hendrerit sed odio. Proin a blandit sem, id lacinia est. Aenean bibendum malesuada nisi porttitor suscipit. Nunc aliquet laoreet nunc.</p>
         <p>vulputate dignissim risus pretium a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non pretium neque. In convallis ullamcorper ipsum sit amet gravida. Morbi quis rhoncus arcu. Vestibulum quam orci, vulputate eu sollicitudin imperdiet.</p>
-        <div class="study_button_inactive">Full Story Coming Soon</div>
+        <div class="study_button inactive">Full Story Coming Soon</div>
       </div>
 
     </div>
 
   </div>
 
-  <div class="study_three">
+  <div class="study_three study">
 
     <div class="container">
 
       <div class="col_left">
-        <h4>The campaign that took a dying business &</h4>
+        <h4>THE CAMPAIGN THAT TOOK A DYING BUSINESS &</h4>
         <h3>doubled the turnover in a month</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non pretium neque. In convallis ullamcorper ipsum sit amet gravida. Morbi quis rhoncus arcu. Vestibulum quam orci, vulputate eu sollicitudin imperdiet, hendrerit sed odio. Proin a blandit sem, id lacinia est. Aenean bibendum malesuada nisi porttitor suscipit. Nunc aliquet laoreet nunc.</p>
         <p>vulputate dignissim risus pretium a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non pretium neque. In convallis ullamcorper ipsum sit amet gravida. Morbi quis rhoncus arcu. Vestibulum quam orci, vulputate eu sollicitudin imperdiet.</p>
-        <div class="study_button_inactive">Full Story Coming Soon</div>
+        <div class="study_button inactive">Full Story Coming Soon</div>
       </div>
 
       <div class="col_right">
@@ -99,9 +105,12 @@
 
   <div class="cta">
 
+    <div class="cta_triangle_green"></div>
+    <div class="cta_triangle_blue"></div>
+
     <div class="container">
 
-      <img src="" alt="">
+      <img src="images/cta_rocket.png" alt="" class="cta_rocket">
       <h4>LEADS, FACEBOOK LIKES, CONVERSION RATES, VIEWS, FOLLOWS</h4>
       <h3>WE’LL DOUBLE IT WITHIN 90 DAYS OR YOUR MONEY BACK</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non pretium neque. In convallis ullamcorper ipsum sit amet gravida. Morbi quis rhoncus arcu. Vestibulum quam orci, vulputate eu sollicitudin imperdiet, hendrerit sed odio. Proin a blandit sem, id lacinia est. Aenean bibendum malesuada nisi porttitor suscipit. Nunc aliquet laoreet nunc.</p>
@@ -142,6 +151,7 @@
 
   <script src="bundle/bundle.js"></script>
   <script src="js/jquery.js"></script>
+  <script src="//load.sumome.com/" data-sumo-site-id="573d38bdf727e8bbe0f1f103738c854fd67cc1413311dedccf577125291475e4" async="async"></script>
 
 </body>
 </html>
