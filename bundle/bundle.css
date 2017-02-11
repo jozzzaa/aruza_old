@@ -96,6 +96,12 @@ h4 {
   color: #fff;
   text-transform: uppercase; }
 
+h5 {
+  font-family: "Lobster", cursive;
+  color: #0a5069;
+  font-size: 1.3em;
+  padding-bottom: 10px; }
+
 p {
   font-family: "Open Sans", sans-serif;
   color: #fff; }
@@ -159,7 +165,7 @@ nav {
         cursor: pointer; }
 
 .header {
-  background: url(../../../images/hero_bg.jpg) no-repeat center center;
+  background: url(../../../images/hero_bg.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100%; }

@@ -68,7 +68,13 @@ h4 {
   font-size: 35px;
   color: #fff;
   text-transform: uppercase;
+}
 
+h5 {
+  font-family: $feature-font;
+  color: #0a5069;
+  font-size: 1.3em;
+  padding-bottom: 10px;
 }
 
 p {
@@ -163,7 +169,7 @@ nav {
 }
 
 .header {
-  background: url(../../../images/hero_bg.jpg) no-repeat center center;
+  background: url(../../../images/hero_bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
