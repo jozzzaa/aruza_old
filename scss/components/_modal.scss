@@ -1,1 +1,42 @@
 
+.double_modal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(#000000, 0.8);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.typeform-widget {
+  background-color: #031e28;
+}
+
+.exit_modal {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 15%;
+  right: 20px;
+  background-color: rgba(#fff, 1);
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(#fff, 0.8);
+  }
+
+  i {
+    color: #031e28;
+    font-size: 1.1em;
+    line-height: 50px;
+
+  }
+
+}
