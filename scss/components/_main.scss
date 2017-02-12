@@ -184,6 +184,7 @@ nav {
       border-radius: 5px;
       transition: 0.3s;
       padding: 5px;
+      cursor: pointer;
 
       * {
         cursor: pointer;
@@ -405,6 +406,8 @@ nav {
 
 .study_two {
   background-color: $medium-blue;
+  background-image: url("../../../images/dust_pattern.jpg");
+  background-repeat: repeat;;
   position: relative;
 
   .col_left {
@@ -571,7 +574,7 @@ footer {
 }
 
 #study_right {
-  background-color: $medium-blue;
+  background-color: rgba($medium-blue, 1);
 }
 
 .study_three {

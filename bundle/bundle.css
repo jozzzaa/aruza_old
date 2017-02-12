@@ -187,7 +187,8 @@ nav {
       border-radius: 5px;
       -webkit-transition: 0.3s;
       transition: 0.3s;
-      padding: 5px; }
+      padding: 5px;
+      cursor: pointer; }
       nav .hover_menu .item_holder * {
         cursor: pointer; }
       nav .hover_menu .item_holder:hover {
@@ -338,6 +339,8 @@ nav {
 
 .study_two {
   background-color: #042430;
+  background-image: url("../../../images/dust_pattern.jpg");
+  background-repeat: repeat;
   position: relative; }
   .study_two .col_left {
     width: 35%; }
