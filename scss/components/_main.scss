@@ -535,6 +535,10 @@ footer {
   .footer_divider {
     color: $light-green;
   }
+
+  #services_footer {
+    opacity: 0.5;
+  }
 }
 
 
@@ -633,6 +637,10 @@ footer {
 
   body {
     width: 100%;
+  }
+
+  .nav-item {
+    display: none;
   }
 
   .cta_triangle_green {

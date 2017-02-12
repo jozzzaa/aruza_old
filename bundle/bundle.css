@@ -429,6 +429,8 @@ footer {
     cursor: default; }
   footer .footer_divider {
     color: #72f4ab; }
+  footer #services_footer {
+    opacity: 0.5; }
 
 .study_one .col_right {
   padding-top: 30px; }
@@ -487,6 +489,8 @@ footer {
     width: 100%; }
   body {
     width: 100%; }
+  .nav-item {
+    display: none; }
   .cta_triangle_green {
     top: -99px; }
   .cta_triangle_blue {
