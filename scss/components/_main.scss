@@ -202,7 +202,7 @@ nav {
       padding: 15px 5px 5px 5px;
 
       img {
-        width: 100%;
+        width: 80%;
       }
     }
 
@@ -220,8 +220,9 @@ nav {
     }
 
     p {
-      color: rgb(68, 68, 68);
+      color: rgb(136, 136, 136);
       font-size: 0.9em;
+      padding-top: 5px;
     }
 
   }
@@ -355,6 +356,7 @@ nav {
 }
 
 .study {
+  position: relative;
 
   p {
     padding: 20px 0px 0px 0px;
@@ -581,4 +583,28 @@ footer {
   .col_right {
     width: 30%;
   }
+}
+
+#nav_smm {
+  color: #005fda;
+}
+
+#nav_growth {
+  // current
+}
+
+#nav_marketing {
+  color: #c23d4b;
+}
+
+#nav_web {
+  color: #9251ac;
+}
+
+.triange_pattern {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-height: 100%;
+  min-width: 100%;
 }

@@ -197,7 +197,7 @@ nav {
       width: 23%;
       padding: 15px 5px 5px 5px; }
       nav .hover_menu .item_icon img {
-        width: 100%; }
+        width: 80%; }
     nav .hover_menu .item_cont {
       display: inline-block;
       width: 77%;
@@ -208,8 +208,9 @@ nav {
       color: #269d5a;
       letter-spacing: 0.04em; }
     nav .hover_menu p {
-      color: #444444;
-      font-size: 0.9em; }
+      color: #888888;
+      font-size: 0.9em;
+      padding-top: 5px; }
   nav .nav_item:hover .hover_menu {
     display: block; }
   nav .nav_right {
@@ -303,34 +304,34 @@ nav {
         height: 31px;
         background-color: #5bb37e; }
 
-.study p {
-  padding: 20px 0px 0px 0px; }
-
-.study .study_button {
-  background-color: #72f4ab;
-  color: #1f1f1f;
-  border: 0px;
-  border-radius: 50px;
-  display: inline-block;
-  padding: 20px 50px 20px 50px;
-  margin-right: 10px;
-  margin-top: 40px;
-  box-shadow: 3px 6px 0px 0px #073647;
-  font-family: "Lobster", cursive;
-  font-size: 1.4em;
-  cursor: pointer;
-  -webkit-transition: 0.8s;
-  transition: 0.8s; }
-  .study .study_button:hover {
+.study {
+  position: relative; }
+  .study p {
+    padding: 20px 0px 0px 0px; }
+  .study .study_button {
+    background-color: #72f4ab;
+    color: #1f1f1f;
+    border: 0px;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 20px 50px 20px 50px;
+    margin-right: 10px;
+    margin-top: 40px;
+    box-shadow: 3px 6px 0px 0px #073647;
+    font-family: "Lobster", cursive;
+    font-size: 1.4em;
     cursor: pointer;
-    background-color: #93f9bf; }
-
-.study .inactive {
-  background-color: #989898;
-  cursor: default; }
-  .study .inactive:hover {
+    -webkit-transition: 0.8s;
+    transition: 0.8s; }
+    .study .study_button:hover {
+      cursor: pointer;
+      background-color: #93f9bf; }
+  .study .inactive {
     background-color: #989898;
     cursor: default; }
+    .study .inactive:hover {
+      background-color: #989898;
+      cursor: default; }
 
 .study_one {
   background-color: #031e28; }
@@ -461,6 +462,22 @@ footer {
 
 .study_three .col_right {
   width: 30%; }
+
+#nav_smm {
+  color: #005fda; }
+
+#nav_marketing {
+  color: #c23d4b; }
+
+#nav_web {
+  color: #9251ac; }
+
+.triange_pattern {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-height: 100%;
+  min-width: 100%; }
 
 .double_modal {
   position: fixed;
