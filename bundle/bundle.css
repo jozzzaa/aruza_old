@@ -359,7 +359,7 @@ nav {
     padding-top: 0px; }
   .cta .cta_triangle_green {
     position: absolute;
-    top: -100px;
+    top: -99px;
     left: 0px;
     width: 0;
     height: 0;
@@ -367,7 +367,7 @@ nav {
     border-left: 100vw solid transparent; }
   .cta .cta_triangle_blue {
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     left: 0px;
     width: 0;
     height: 0;
@@ -443,10 +443,10 @@ footer {
 
 #study_one_img {
   position: absolute;
-  top: 0px;
   right: 0px;
+  bottom: 0px;
   width: 70%;
-  padding-top: 170px; }
+  padding-bottom: 10%; }
 
 #study_two_img {
   position: absolute;
@@ -481,6 +481,39 @@ footer {
   left: 0px;
   min-height: 100%;
   min-width: 100%; }
+
+@media only screen and (max-width: 768px) {
+  html {
+    width: 100%; }
+  body {
+    width: 100%; }
+  .cta_triangle_green {
+    top: -99px; }
+  .cta_triangle_blue {
+    bottom: -2px; } }
+
+@media only screen and (max-device-width: 480px) {
+  .study_three .container, .study_one .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+    .study_three .container .col_left, .study_one .container .col_left {
+      width: 90%;
+      margin: 0 auto; }
+    .study_three .container .col_right, .study_one .container .col_right {
+      width: 60%;
+      padding-bottom: 60px;
+      margin: 0 auto; }
+  #study_one_img {
+    display: none; }
+  .study_two .col_right {
+    width: 90% !important; }
+  .study_two .col_left {
+    width: 10% !important; } }
 
 .double_modal {
   position: fixed;

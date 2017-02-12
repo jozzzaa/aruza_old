@@ -436,7 +436,7 @@ nav {
 
   .cta_triangle_green {
     position: absolute;
-    top: -100px;
+    top: -99px;
     left: 0px;
     width: 0;
     height: 0;
@@ -446,7 +446,7 @@ nav {
 
   .cta_triangle_blue {
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     left: 0px;
     width: 0;
     height: 0;
@@ -556,10 +556,10 @@ footer {
 
 #study_one_img {
   position: absolute;
-  top: 0px;
   right: 0px;
+  bottom: 0px;
   width: 70%;
-  padding-top: 170px;
+  padding-bottom: 10%;
 }
 
 #study_two_img {
@@ -610,4 +610,72 @@ footer {
   left: 0px;
   min-height: 100%;
   min-width: 100%;
+}
+
+
+// Responsive
+
+// @media only screen and (min-device-width : 481px) and (max-device-width : 768px){
+//   body {
+//     font-size: 1.4em;
+//   }
+//
+//   .study_one .container {
+//     height: 1100px;
+//   }
+// }
+
+@media only screen and (max-width: 768px) {
+
+  html {
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .cta_triangle_green {
+    top: -99px;
+  }
+
+  .cta_triangle_blue {
+    bottom: -2px;
+  }
+}
+
+@media only screen and (max-device-width : 480px){
+  .study_three .container, .study_one .container {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .col_left {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .col_right {
+      width: 60%;
+      padding-bottom: 60px;
+      margin: 0 auto;
+
+    }
+  }
+
+  #study_one_img {
+    display: none;
+  }
+
+  .study_two {
+
+    .col_right {
+      width: 90% !important;
+    }
+
+    .col_left {
+      width: 10% !important;
+    }
+
+  }
+
 }
