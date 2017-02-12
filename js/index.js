@@ -15,3 +15,7 @@ $('.exit_modal').click(function() {
 $('.cta_button').click(function() {
   $('.double_modal').fadeIn()
 })
+
+// $('#specialty_dropdown').hover(function() {
+//   $('.hover_menu').show();
+// })

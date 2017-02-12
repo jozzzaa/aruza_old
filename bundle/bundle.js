@@ -62,5 +62,9 @@
 	  $('.double_modal').fadeIn();
 	});
 
+	// $('#specialty_dropdown').hover(function() {
+	//   $('.hover_menu').show();
+	// })
+
 /***/ }
 /******/ ]);
