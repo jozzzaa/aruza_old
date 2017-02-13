@@ -322,7 +322,8 @@ nav {
     font-size: 1.4em;
     cursor: pointer;
     -webkit-transition: 0.8s;
-    transition: 0.8s; }
+    transition: 0.8s;
+    opacity: 0; }
     .study .study_button:hover {
       cursor: pointer;
       background-color: #93f9bf; }
@@ -518,7 +519,10 @@ footer {
   .study_two .col_left {
     width: 10% !important; } }
 
-.double_modal {
+.study3_p {
+  width: 90%; }
+
+.modal_bg {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -538,26 +542,136 @@ footer {
   padding: 20px;
   z-index: 20000; }
 
-.typeform-widget {
-  background-color: #031e28; }
-
 .exit_modal {
   height: 50px;
   width: 50px;
   position: absolute;
-  top: 15%;
-  right: 20px;
-  background-color: white;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(255, 255, 255, 0.1);
   text-align: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer; }
   .exit_modal:hover {
-    background-color: rgba(255, 255, 255, 0.8); }
+    background-color: rgba(255, 255, 255, 0.3); }
   .exit_modal i {
-    color: #031e28;
+    color: white;
     font-size: 1.1em;
     line-height: 50px; }
+
+.contact_modal {
+  height: 700px;
+  width: 700px;
+  position: relative;
+  overflow: scroll; }
+  .contact_modal .form_box {
+    height: 90%;
+    width: 65%;
+    background-color: white;
+    margin: 5% 0% 5% 0%;
+    padding: 50px; }
+    .contact_modal .form_box h1 {
+      font-size: 2.8em;
+      line-height: 1.3em; }
+    .contact_modal .form_box form {
+      padding: 15px 0px 0px 0px; }
+      .contact_modal .form_box form label {
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        color: #042430;
+        font-weight: bold; }
+        .contact_modal .form_box form label span {
+          font-size: 0.5em;
+          color: rgba(4, 36, 48, 0.5); }
+      .contact_modal .form_box form input {
+        display: block;
+        width: 85%;
+        height: 40px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #d2d2d2;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        padding: 0px 10px 0px 10px;
+        font-size: 0.8em;
+        -webkit-transition: 0.6s;
+        transition: 0.6s; }
+        .contact_modal .form_box form input:focus {
+          border-bottom: 2px solid #1ad66c; }
+      .contact_modal .form_box form button {
+        width: 85%;
+        height: 50px;
+        margin-top: 20px;
+        background-color: #72f4ab;
+        font-size: 1em;
+        font-family: "Lobster", cursive;
+        border: 0px;
+        border-radius: 5px;
+        cursor: pointer; }
+        .contact_modal .form_box form button:hover {
+          background-color: #43e288; }
+  .contact_modal .benefits_box {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 35%;
+    background-color: #042430;
+    padding: 100px 60px 100px 30px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .contact_modal .benefits_triangle {
+    position: absolute;
+    top: 0px;
+    right: calc(35%);
+    width: 0;
+    height: 0;
+    border-bottom: 700px solid #042430;
+    border-left: 100px solid transparent; }
+
+#form_thank_you {
+  background-color: #72f4ab;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  color: #042430;
+  margin-top: 20px;
+  width: 85%;
+  font-size: 0.8em;
+  display: none; }
+  #form_thank_you p {
+    color: #042430; }
+
+#error_message {
+  background-color: #e24343;
+  border-radius: 5px;
+  padding: 7px;
+  text-align: center;
+  color: #042430;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  width: 85%;
+  font-size: 0.8em;
+  display: none; }
+
+.icon_holder {
+  margin: 20px 0px 20px 0px; }
+  .icon_holder img {
+    margin-bottom: 20px;
+    opacity: 0.15; }
+  .icon_holder p {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.7); }
 
 .coming-soon {
   margin: 0;

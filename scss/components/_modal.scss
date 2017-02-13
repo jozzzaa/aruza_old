@@ -1,5 +1,5 @@
 
-.double_modal {
+.modal_bg {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -14,31 +14,171 @@
   z-index: 20000;
 }
 
-.typeform-widget {
-  background-color: #031e28;
-
-}
-
 .exit_modal {
   height: 50px;
   width: 50px;
   position: absolute;
-  top: 15%;
-  right: 20px;
-  background-color: rgba(#fff, 1);
+  top: 0px;
+  right: 0px;
+  background-color: rgba(#fff, 0.1);
   text-align: center;
   transition: 0.3s;
   cursor: pointer;
 
   &:hover {
-    background-color: rgba(#fff, 0.8);
+    background-color: rgba(#fff, 0.3);
   }
 
   i {
-    color: #031e28;
+    color: white;;
     font-size: 1.1em;
     line-height: 50px;
 
   }
 
+}
+
+.contact_modal {
+  height: 700px;
+  width: 700px;
+  position: relative;
+  overflow: scroll;
+
+  .form_box {
+    height: 90%;
+    width: 65%;
+    background-color: white;
+    margin: 5% 0% 5% 0%;
+    padding: 50px;
+
+    h1 {
+      font-size: 2.8em;
+      line-height: 1.3em;
+      // text-transform: uppercase;
+    }
+
+    form {
+      padding: 15px 0px 0px 0px;
+
+      label {
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        color: #042430;
+        font-weight: bold;
+
+        span {
+          font-size: 0.5em;
+          color: rgba(#042430, 0.5);
+
+        }
+      }
+
+      input {
+        display: block;
+        width: 85%;
+        height: 40px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid rgb(210, 210, 210);
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        padding: 0px 10px 0px 10px;
+        font-size: 0.8em;
+        transition: 0.6s;
+
+        &:focus {
+          border-bottom: 2px solid #1ad66c;
+        }
+      }
+
+      button {
+        width: 85%;
+        height: 50px;
+        margin-top: 20px;
+        background-color: $light-green;
+        font-size: 1em;
+        font-family: $feature-font;
+        border: 0px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #43e288;
+        }
+      }
+
+    }
+
+  }
+
+  .benefits_box {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 35%;
+    background-color: $medium-blue;
+    padding: 100px 60px 100px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .benefits_triangle {
+    position: absolute;
+    top: 0px;
+    right: calc(35%);
+    width: 0;
+  	height: 0;
+  	border-bottom: 700px solid $medium-blue;
+  	border-left: 100px solid transparent;
+
+  }
+
+}
+
+#form_thank_you {
+  background-color: $light-green;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  color: $medium-blue;
+  margin-top: 20px;
+  width: 85%;
+  font-size: 0.8em;
+  display: none;
+
+  p {
+    color: $medium-blue;
+  }
+}
+
+#error_message {
+  background-color: #e24343;
+  border-radius: 5px;
+  padding: 7px;
+  text-align: center;
+  color: $medium-blue;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  width: 85%;
+  font-size: 0.8em;
+  display: none;
+
+}
+
+.icon_holder {
+  // border: 1px solid red;
+  margin: 20px 0px 20px 0px;
+
+  img {
+    margin-bottom: 20px;
+    opacity: 0.15;
+  }
+
+  p {
+    font-size: 0.8em;
+    color: rgba(white, 0.7);
+  }
 }

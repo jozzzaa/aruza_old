@@ -383,6 +383,7 @@ nav {
     font-size: 1.4em;
     cursor: pointer;
     transition: 0.8s;
+    opacity: 0;
 
     &:hover {
       cursor: pointer;
@@ -690,4 +691,8 @@ footer {
 
   }
 
+}
+
+.study3_p {
+  width: 90%;
 }
