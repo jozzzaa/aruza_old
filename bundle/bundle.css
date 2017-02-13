@@ -290,20 +290,19 @@ nav {
     .header .hero_content #highlight_holder {
       display: inline-block;
       position: relative;
-      width: 650px;
       height: 65px;
       text-align: center; }
       .header .hero_content #highlight_holder h2 {
-        position: absolute;
-        top: 0px;
-        left: 0px; }
+        z-index: 10;
+        position: relative; }
       .header .hero_content #highlight_holder #hero_highlight {
         position: absolute;
         top: 20px;
         right: 12px;
         width: 506px;
         height: 31px;
-        background-color: #5bb37e; }
+        background-color: #5bb37e;
+        z-index: 5; }
 
 .study {
   position: relative; }
